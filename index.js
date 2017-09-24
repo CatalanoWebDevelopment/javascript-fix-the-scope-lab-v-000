@@ -14,7 +14,7 @@ n = Math.floor(Math.random() * 1000)
 
 function add2(n) {
   n + 2
-  return n;
+  return n
 }
 
 var funkyFunction = function() {
