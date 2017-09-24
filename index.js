@@ -21,9 +21,11 @@ var funkyFunction = function() {
   var innerVariable = "FUNKY!";
 
   return function() {
-    return innerVariable; }
+    return innerVariable;
+   }
   }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction
+theFunky();
