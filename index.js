@@ -19,7 +19,7 @@ function add2(n) {
 
 var funkyFunction = function() {
   var innerVariable = "FUNKY!";
-  
+
   return function() {
     return innerVariable; }
   }
